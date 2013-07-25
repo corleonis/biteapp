@@ -21,6 +21,8 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 /*
@@ -93,21 +95,106 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Custom container */
+.container-narrow {
+    margin: 0 auto;
+    max-width: 980px;
+}
+.container-narrow > hr {
+    margin: 30px 0;
+}
 
+/* Main marketing message and sign up button */
+.jumbotron {
+    margin: 60px 0;
+    text-align: center;
+}
+.jumbotron h1 {
+    font-size: 72px;
+    line-height: 1;
+}
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
 
+/* Supporting marketing content */
+.marketing {
+    margin: 60px 0;
+}
+.marketing p + h4 {
+    margin-top: 28px;
+}
 
+/**
+ * EDITOR STYLES
+ **/
 
+#editor {
+	max-height: 250px;
+	height: 250px;
+	background-color: white;
+	border-collapse: separate;
+	border: 1px solid rgb(204, 204, 204);
+	padding: 4px;
+	box-sizing: content-box;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset;
+	box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset;
+	border-top-right-radius: 3px; border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px; border-top-left-radius: 3px;
+	overflow: scroll;
+	outline: none;
+}
+#voiceBtn {
+  width: 20px;
+  color: transparent;
+  background-color: transparent;
+  transform: scale(2.0, 2.0);
+  -webkit-transform: scale(2.0, 2.0);
+  -moz-transform: scale(2.0, 2.0);
+  border: transparent;
+  cursor: pointer;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
 
+div[data-role="editor-toolbar"] {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
+.dropdown-menu a {
+  cursor: pointer;
+}
 
+/**
+ * TABLE SORTER
+ **/
+th.tablesorter-header {
+    cursor: pointer;
+}
+.tablesorter-header .tablesorter-header-inner {
+    font-family: FontAwesome;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+.tablesorter-header .tablesorter-header-inner:after {
+    content: "\f0dc";
+    margin-left: 5px;
+    color: #ccc;
+}
+.tablesorter-headerDesc .tablesorter-header-inner:after {
+    content: "\f0de";
+    color: #000;
+}
 
-
-
-
-
-
-
-
+.tablesorter-headerAsc .tablesorter-header-inner:after {
+    content: "\f0dd";
+    color: #000;
+}
 
 /* ==========================================================================
    Helper classes
