@@ -8,7 +8,6 @@
     <strategy useRoutes="false" mediaReduce="false" fileReduce="false" currentDocumentsReduce="false" />
     <routes />
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="5.3.0" />
   <component name="ProjectKey">
     <option name="state" value="project://default" />
   </component>

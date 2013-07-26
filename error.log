@@ -1,0 +1,82 @@
+[Fri Jul 26 09:00:29 2013] [alert] [client 127.0.0.1] /var/www/bite/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jul 26 09:00:52 2013] [alert] [client 127.0.0.1] /var/www/bite/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Jul 26 09:01:49 2013] [error] [client 127.0.0.1] File does not exist: /var/www/bite/public/home
+[Fri Jul 26 09:01:49 2013] [error] [client 127.0.0.1] File does not exist: /var/www/bite/public/404.html
+[Fri Jul 26 09:03:11 2013] [error] [client 127.0.0.1] Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Fri Jul 26 09:03:25 2013] [error] [client 127.0.0.1] Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Fri Jul 26 09:03:27 2013] [error] [client 127.0.0.1] Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Fri Jul 26 09:03:28 2013] [error] [client 127.0.0.1] Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Fri Jul 26 09:03:28 2013] [error] [client 127.0.0.1] Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Fri Jul 26 09:03:32 2013] [error] [client 127.0.0.1] Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Fri Jul 26 09:03:32 2013] [error] [client 127.0.0.1] Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Fri Jul 26 09:03:32 2013] [error] [client 127.0.0.1] Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Fri Jul 26 09:03:39 2013] [error] [client 127.0.0.1] File does not exist: /var/www/bite/public/home
+[Fri Jul 26 09:03:39 2013] [error] [client 127.0.0.1] File does not exist: /var/www/bite/public/404.html
+[Fri Jul 26 10:03:29 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined method Illuminate\\View\\Environment::run() in /var/www/bite/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 177
+[Fri Jul 26 10:03:29 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Jul 26 10:03:29 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/bite/public/index.php:0
+[Fri Jul 26 10:03:29 2013] [error] [client 127.0.0.1] PHP   2. Illuminate\\Foundation\\Application->run() /var/www/bite/public/index.php:49
+[Fri Jul 26 10:03:29 2013] [error] [client 127.0.0.1] PHP   3. Illuminate\\Foundation\\Application->dispatch() /var/www/bite/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:506
+[Fri Jul 26 10:03:29 2013] [error] [client 127.0.0.1] PHP   4. Illuminate\\Routing\\Router->dispatch() /var/www/bite/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:531
+[Fri Jul 26 10:03:29 2013] [error] [client 127.0.0.1] PHP   5. Illuminate\\Routing\\Route->run() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1016
+[Fri Jul 26 10:03:29 2013] [error] [client 127.0.0.1] PHP   6. Illuminate\\Routing\\Route->callCallable() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Route.php:47
+[Fri Jul 26 10:03:29 2013] [error] [client 127.0.0.1] PHP   7. call_user_func_array() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Route.php:80
+[Fri Jul 26 10:03:29 2013] [error] [client 127.0.0.1] PHP   8. Illuminate\\Routing\\{closure}() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Route.php:80
+[Fri Jul 26 10:03:29 2013] [error] [client 127.0.0.1] PHP   9. Illuminate\\Routing\\Controllers\\Controller->callAction() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Router.php:985
+[Fri Jul 26 10:03:29 2013] [error] [client 127.0.0.1] PHP  10. Illuminate\\Routing\\Controllers\\Controller->callMethod() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:115
+[Fri Jul 26 10:03:29 2013] [error] [client 127.0.0.1] PHP  11. call_user_func_array() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:138
+[Fri Jul 26 10:03:29 2013] [error] [client 127.0.0.1] PHP  12. FoodController->getIndex() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:138
+[Fri Jul 26 10:03:29 2013] [error] [client 127.0.0.1] PHP  13. Illuminate\\Support\\Facades\\View::run() /var/www/bite/app/controllers/FoodController.php:16
+[Fri Jul 26 10:03:29 2013] [error] [client 127.0.0.1] PHP  14. Illuminate\\Support\\Facades\\Facade::__callStatic() /var/www/bite/app/controllers/FoodController.php:16
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Html' not found in /var/www/bite/app/storage/views/a1fb437d2dd767ddc93c30460857638a on line 18
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/bite/public/index.php:0
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP   2. Illuminate\\Foundation\\Application->run() /var/www/bite/public/index.php:49
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP   3. Illuminate\\Foundation\\Application->dispatch() /var/www/bite/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:506
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP   4. Illuminate\\Routing\\Router->dispatch() /var/www/bite/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:531
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP   5. Illuminate\\Routing\\Route->run() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1016
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP   6. Illuminate\\Routing\\Route->callCallable() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Route.php:47
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP   7. call_user_func_array() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Route.php:80
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP   8. Illuminate\\Routing\\{closure}() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Route.php:80
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP   9. Illuminate\\Routing\\Controllers\\Controller->callAction() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Router.php:985
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP  10. Illuminate\\Routing\\Controllers\\Controller->processResponse() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:126
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP  11. Illuminate\\Routing\\Router->prepare() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:156
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP  12. Symfony\\Component\\HttpFoundation\\Response->__construct() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1413
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP  13. Illuminate\\Http\\Response->setContent() /var/www/bite/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php:141
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP  14. Illuminate\\View\\View->render() /var/www/bite/vendor/laravel/framework/src/Illuminate/Http/Response.php:69
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP  15. Illuminate\\View\\View->getContents() /var/www/bite/vendor/laravel/framework/src/Illuminate/View/View.php:81
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP  16. Illuminate\\View\\Engines\\CompilerEngine->get() /var/www/bite/vendor/laravel/framework/src/Illuminate/View/View.php:100
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP  17. Illuminate\\View\\Engines\\PhpEngine->evaluatePath() /var/www/bite/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:45
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP  18. include() /var/www/bite/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:38
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP  19. Illuminate\\View\\View->render() /var/www/bite/app/storage/views/7d3b12321d304897124146ec8bcee8d6:117
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP  20. Illuminate\\View\\View->getContents() /var/www/bite/vendor/laravel/framework/src/Illuminate/View/View.php:81
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP  21. Illuminate\\View\\Engines\\CompilerEngine->get() /var/www/bite/vendor/laravel/framework/src/Illuminate/View/View.php:100
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP  22. Illuminate\\View\\Engines\\PhpEngine->evaluatePath() /var/www/bite/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:45
+[Fri Jul 26 10:07:54 2013] [error] [client 127.0.0.1] PHP  23. include() /var/www/bite/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:38
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function path() in /var/www/bite/app/storage/views/a1fb437d2dd767ddc93c30460857638a on line 18
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/bite/public/index.php:0
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP   2. Illuminate\\Foundation\\Application->run() /var/www/bite/public/index.php:49
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP   3. Illuminate\\Foundation\\Application->dispatch() /var/www/bite/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:506
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP   4. Illuminate\\Routing\\Router->dispatch() /var/www/bite/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:531
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP   5. Illuminate\\Routing\\Route->run() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1016
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP   6. Illuminate\\Routing\\Route->callCallable() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Route.php:47
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP   7. call_user_func_array() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Route.php:80
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP   8. Illuminate\\Routing\\{closure}() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Route.php:80
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP   9. Illuminate\\Routing\\Controllers\\Controller->callAction() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Router.php:985
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP  10. Illuminate\\Routing\\Controllers\\Controller->processResponse() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:126
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP  11. Illuminate\\Routing\\Router->prepare() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:156
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP  12. Symfony\\Component\\HttpFoundation\\Response->__construct() /var/www/bite/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1413
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP  13. Illuminate\\Http\\Response->setContent() /var/www/bite/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php:141
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP  14. Illuminate\\View\\View->render() /var/www/bite/vendor/laravel/framework/src/Illuminate/Http/Response.php:69
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP  15. Illuminate\\View\\View->getContents() /var/www/bite/vendor/laravel/framework/src/Illuminate/View/View.php:81
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP  16. Illuminate\\View\\Engines\\CompilerEngine->get() /var/www/bite/vendor/laravel/framework/src/Illuminate/View/View.php:100
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP  17. Illuminate\\View\\Engines\\PhpEngine->evaluatePath() /var/www/bite/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:45
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP  18. include() /var/www/bite/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:38
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP  19. Illuminate\\View\\View->render() /var/www/bite/app/storage/views/7d3b12321d304897124146ec8bcee8d6:117
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP  20. Illuminate\\View\\View->getContents() /var/www/bite/vendor/laravel/framework/src/Illuminate/View/View.php:81
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP  21. Illuminate\\View\\Engines\\CompilerEngine->get() /var/www/bite/vendor/laravel/framework/src/Illuminate/View/View.php:100
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP  22. Illuminate\\View\\Engines\\PhpEngine->evaluatePath() /var/www/bite/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:45
+[Fri Jul 26 10:09:04 2013] [error] [client 127.0.0.1] PHP  23. include() /var/www/bite/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:38
+[Fri Jul 26 10:31:35 2013] [error] [client 127.0.0.1] Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Fri Jul 26 10:31:47 2013] [error] [client 127.0.0.1] Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
